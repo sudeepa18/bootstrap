@@ -1,0 +1,98 @@
+/* General Styles */
+body {
+    background-color: #fff4e6; /* Light creamy background */
+    font-family: 'Poppins', sans-serif;
+    color: #4a1c1c;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #7b002c; /* Wine red */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #ffe5ec, #ffcad4); /* Soft pink gradient */
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #7b002c;
+    font-family: 'Sacramento', cursive; /* More stylish font */
+}
+
+.hero p {
+    font-size: 1.3rem;
+    color: #5a1a1a;
+    font-style: italic;
+}
+
+/* Section Headings */
+.section-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #7b002c;
+    margin-bottom: 20px;
+}
+
+/* Subcategory Headings */
+.subcategory-heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #c2185b;
+    margin-top: 30px;
+    border-bottom: 2px solid #7b002c;
+    display: inline-block;
+}
+
+/* Dessert Cards */
+.dessert-card {
+    text-align: center;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.9); /* Light background for distinction */
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.dessert-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.dessert-card h5 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #7b002c;
+    font-family: 'Pacifico', cursive;
+}
+
+/* Hover Effect */
+.dessert-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #7b002c;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}

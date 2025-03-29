@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heavenly Desserts</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .dessert-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        #contactSection {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            background-color: #fff8e1; /* Light background */
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px auto;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sudeepa's Heavenly Desserts</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button" data-bs-toggle="dropdown">
+                            Menu
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#cakes">Cakes</a></li>
+                            <li><a class="dropdown-item" href="#icecreams">Ice Creams</a></li>
+                            <li><a class="dropdown-item" href="#donuts">Donuts</a></li>
+                            <li><a class="dropdown-item" href="#pastries">Pastries</a></li>
+                            <li><a class="dropdown-item" href="#puddings">Puddings</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#" id="contactLink">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="hero">
+        <div class="container">
+            <h1>Indulge in Heavenly Desserts</h1>
+            <p>Explore a delightful selection of mouth-watering sweets crafted to perfection.</p>
+        </div>
+    </header>
+    
+    <div class="container mt-5">
+        <h2 class="section-heading">Our Specialties</h2>
+        
+        <h3 id="cakes" class="subcategory-heading">Cakes</h3>
+        <p>Soft, fluffy, and full of flavor, our cakes are perfect for any occasion.</p>
+        <div class="row">
+            <div class="col-md-4"><div class="dessert-card"><img src="images/Chocolate Truffles Cake.jpeg" alt="Chocolate Cake"><h5>Chocolate Cake</h5></div></div>
+            <div class="col-md-4"><div class="dessert-card"><img src="images/red velvet cake.jpeg" alt="Red Velvet Cake"><h5>Red Velvet Cake</h5></div></div>
+            <div class="col-md-4"><div class="dessert-card"><img src="images/strawberry cake.jpeg" alt="Strawberry Short Cake"><h5>Strawberry Short Cake</h5></div></div>
+        </div>
+        
+        <h3 id="icecreams" class="subcategory-heading">Ice Creams</h3>
+        <p>Delicious and creamy ice creams to refresh your taste buds.</p>
+        <div class="row">
+            <div class="col-md-4"><div class="dessert-card"><img src="images/vanilla icecream.jpeg" alt="Vanilla Ice Cream"><h5>Vanilla Ice Cream</h5></div></div>
+            <div class="col-md-4"><div class="dessert-card"><img src="images/Strawberry Sundae Delight.jpeg" alt="Strawberry Ice Cream"><h5>Strawberry Ice Cream</h5></div></div>
+            <div class="col-md-4"><div class="dessert-card"><img src="images/chocolate icecream.jpeg" alt="Chocolate Ice Cream"><h5>Chocolate Ice Cream</h5></div></div>
+        </div>
+        
+        <h3 id="donuts" class="subcategory-heading">Donuts</h3>
+        <p>Fluffy, sweet, and perfect for any time of the day.</p>
+        <div class="row">
+            <div class="col-md-4"><div class="dessert-card"><img src="images/glazed donut.jpeg" alt="Glazed Donut"><h5>Glazed Donut</h5></div></div>
+            <div class="col-md-4"><div class="dessert-card"><img src="images/chocolate donut.jpeg" alt="Chocolate Donut"><h5>Chocolate Donut</h5></div></div>
+            <div class="col-md-4"><div class="dessert-card"><img src="images/sprinkle donut.jpeg" alt="Sprinkle Donut"><h5>Sprinkle Donut</h5></div></div>
+        </div>
+        
+        <h3 id="pastries" class="subcategory-heading">Pastries</h3>
+        <p>Light, buttery, and filled with delicious flavors.</p>
+        <div class="row">
+            <div class="col-md-4"><div class="dessert-card"><img src="images/crossiant.jpeg" alt="Croissant"><h5>Croissant</h5></div></div>
+            <div class="col-md-4"><div class="dessert-card"><img src="images/danish pastry.jpeg" alt="Danish Pastry"><h5>Danish Pastry</h5></div></div>
+            <div class="col-md-4"><div class="dessert-card"><img src="images/Apple Strudel.jpeg" alt="Apple Strudel"><h5>Apple Strudel</h5></div></div>
+        </div>
+        
+        <h3 id="puddings" class="subcategory-heading">Puddings</h3>
+        <p>Silky smooth and rich puddings to satisfy your sweet tooth.</p>
+        <div class="row">
+            <div class="col-md-4"><div class="dessert-card"><img src="images/chocolate pudding.jpeg" alt="Chocolate Pudding"><h5>Chocolate Pudding</h5></div></div>
+            <div class="col-md-4"><div class="dessert-card"><img src="images/vanilla pudding.jpeg" alt="Vanilla Pudding"><h5>Vanilla Pudding</h5></div></div>
+            <div class="col-md-4"><div class="dessert-card"><img src="images/rice pudding.jpeg" alt="Rice Pudding"><h5>Rice Pudding</h5></div></div>
+        </div>
+    </div>
+    <div id="contactSection" class="contact hidden">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Reach out to us via email at <strong>sudeepalepcha.18@gmail.com</strong> or call <strong>+91 7908059214</strong>.</p>
+    </div>
+</div>
+<div id="contactSection">
+    <h2>Contact Us</h2>
+    <p>Email: sudeepalepcha.18@gmail.com</p>
+    <p>Phone: +91 7908059214</p>
+    <p>Visit us at our store for the best sweet treats!</p>
+</div>
+    
+    <footer>
+        <p>&copy; 2025 Sudeepa's Heavenly Desserts | Made with Love</p>
+    </footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        
+        document.getElementById("contactLink").addEventListener("click", function(event) {
+            event.preventDefault();
+            let contactSection = document.getElementById("contactSection");
+            if (contactSection.style.display === "none" || contactSection.style.display === "") {
+                contactSection.style.display = "block";
+                contactSection.scrollIntoView({ behavior: "smooth" });
+            } else {
+                contactSection.style.display = "none";
+            }
+        });
+
+        
+        document.querySelectorAll('.menu-link').forEach(item => {
+            item.addEventListener('click', function(event) {
+                event.preventDefault();
+                let targetId = this.getAttribute('href').substring(1);
+                let targetElement = document.getElementById(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({ behavior: "smooth" });
+                }
+            });
+        });
+    </script>
+
+
+</body>
+</html>
